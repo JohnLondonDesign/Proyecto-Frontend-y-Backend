@@ -1,0 +1,38 @@
+/* color del nav */
+nav {
+    background-color: #009688;
+}
+
+/* Color del footer */
+footer{
+    background-color: #009688;
+}
+
+/* Estilo de los botones */
+.btn, .btn-large, .btn-small {
+    text-decoration: none;
+    color: #fff;
+    background-color: #5a5f5e;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+    border: chocolate;
+    border-radius: 20px;
+}
+
+/* Estilo de letra de la barra de listado de inventario */
+.listado{
+    color: #fff;
+    line-height: 140%;
+}
+
+.row {
+    
+    margin-bottom: auto;
+    margin: 15px;
+    align-items: center;
+
+}
+

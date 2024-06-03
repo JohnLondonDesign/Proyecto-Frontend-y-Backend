@@ -1,0 +1,18 @@
+/* Estilos de la tabla */
+td {
+    padding: 5px 5px;
+}
+
+/* Sombra de color al pasar el mouse */
+table tbody tr:hover {
+    color: #009688;
+    box-shadow: 0px 2px 4px #009688;
+    transform: translateY(-1px);
+}
+
+/* Estilo para evitar superposición de sombras */
+table tbody tr {
+    position: relative;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
